@@ -27,3 +27,12 @@ Links de referencia:
 [Kivy](https://kivy.org/).
 
 [Kivy tutorial](https://kivy.org/doc/stable/gettingstarted/installation.html).
+
+
+Pantallas:
+
+- Registro candidatos : ZAIN
+- Pantalla de boleta : Nat
+- Pantalla auditoria : Norma
+- Pantalla cierre    : Brenda
+- Pantalla configuración de participación ciudadana - Miguel
