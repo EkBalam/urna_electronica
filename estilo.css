@@ -1,0 +1,24 @@
+body{
+    font-family: Arial;
+    background: rgb(236, 30, 150);
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: rgb(236, 30, 150);
+    width: 90%;
+    max-width: 130px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(211, 32, 181);
+}
