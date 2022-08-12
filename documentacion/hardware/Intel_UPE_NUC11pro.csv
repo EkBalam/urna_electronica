@@ -1,0 +1,75 @@
+﻿UPE | Comparar productos Intel®
+2022/08/12 11:48:49
+,Mini-PC Intel® NUC 11 Pro NUC11TNKv7
+
+Elementos fundamentales
+Colección de productos,Mini-PC Intel® NUC equipada con procesadores Intel® Core™ de 11ᵃ Generación
+Nombre de código,Productos anteriormente  Tiger Canyon
+Estado,Launched
+Fecha de lanzamiento,Q1'21
+Discontinuidad prevista,1H'24
+Sistemas operativos compatibles,Windows 11 Home* |  Windows 11 Pro* |  Windows 10 Home |  64-bit* |  Windows 10 IoT Enterprise* |  Windows 10 Pro |  64-bit* |  Red Hat Linux* |  Ubuntu 20.04 LTS*
+Númbero de placa,NUC11TNBv7
+Formato de la placa,UCFF (4" x 4")
+Zócalo,Soldered-down BGA
+Factor de formato de la unidad interna,M.2 SSD
+Cantidad de unidades internas admitidas,2
+TDP,28 W
+Compatible con voltaje de entrada CD,12-20 VDC
+Precio recomendado para el cliente,$1039.08
+Sistema operativo preinstalado,Windows 10 Pro |  64-bit*
+Procesador incluido,Intel® Core™ i7-1185G7 Processor (12M Cache |  up to 4.80 GHz |  with IPU)
+Idoneidad para la plataforma Intel® vPro™ ‡,Sí
+Cantidad de núcleos,4
+Cantidad de subprocesos,8
+Litografía,10 nm SuperFin
+Frecuencia turbo máxima,4.80 GHz
+
+Información complementaria
+Opciones integradas disponibles,No
+
+Memoria y almacenamiento
+Almacenamiento incluido,500GB Gen 4 NVMe SSD
+Memoria incluida,2x 8GB DDR4
+Tamaño de memoria máximo (depende del tipo de memoria),64 GB
+Tipos de memoria,DDR4-3200 1.2V SO-DIMMs
+Cantidad máxima de canales de memoria,2
+Cantidad máxima de DIMM,2
+Compatible con memoria ECC ‡,No
+
+Gráficos de procesadores
+Gráficos integrados ‡,Sí
+Salida de gráficos,Dual HDMI 2.0b w/HDMI CEC |  Dual DP 1.4a via Type C
+Cantidad de pantallas admitidas ‡,4
+
+Opciones de expansión
+Revisión de PCI Express,Gen 4 (m.2 22x80 slot); Gen 3 (otherwise)
+Configuraciones de PCI Express ‡,PCIe x4 Gen 4: M.2 22x80 (key M) PCIe x1 Gen 3: M.2 22x42 (key B) PCIe x1: M.2 22x30 (key E)
+Ranura M.2 para tarjeta (inalámbrica),22x30 (E)
+Ranura M.2 para tarjeta (almacenamiento),22x80 NVMe (M); 22x42 SATA (B)
+
+Especificaciones de E/S
+Cantidad de puertos USB,4
+Configuración USB,Front: 2x USB 3.2 Rear: 2x USB 4 (type C) |  1x USB 3.2 |  1x USB 2.0 Internal: 1x USB 3.2 on m.2 22x42 (pins) |  2x USB 2.0 (headers)
+Puerto serie a través de cabezal interno,Sí
+Red de área local integrada,Intel® Ethernet Controller i225-LM
+Wireless integrado‡,Intel® Wi-Fi 6 AX201
+Bluetooth integrado,Sí
+Cabezales adicionales,Front_panel (PWR |  RST |  5V |  5Vsby |  3.3Vsby); Internal 2x2 power connector
+Número de puertos Thunderbolt™ 3,1x Thunderbolt™ 4 |  1x Thunderbolt™ 3
+
+Especificaciones de paquete
+Dimensiones del chasis,117 x 112 x 37 [mm] (LxWxH)
+
+Tecnologías avanzadas
+Compatible con la memoria Intel® Optane™ ‡,No
+Tecnología de virtualización Intel® para E/S dirigida (VT-d) ‡,Sí
+Idoneidad para la plataforma Intel® vPro™ ‡,Sí
+Versión de firmware Intel® ME,15
+TPM,Sí
+Versión TPM,2.0
+Tecnología de virtualización Intel® (VT-x) ‡,Sí
+
+Seguridad y confiabilidad
+Nuevas instrucciones de AES Intel®,Sí
+Tecnología Intel® Trusted Execution ‡,Sí
