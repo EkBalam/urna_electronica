@@ -1,4 +1,110 @@
 @startuml
-class boleta{
-    + candidato
+
+!theme crt-green
+
+skinparam linetype ortho
+
+entity casilla_generales{
+    * id_casilla : number
+    --
+    * entidad : text
+    * municipio : text
+    * localidad : text
+    * distrito : text
+    * seccion_electoral : text
+    * tipo_casilla: text
 }
+
+entity funcionario{
+    * id_funcionario : number <<generated>>
+    * id_tipo_funcionario: number <<FK>>
+    --
+    * clave_elector : text
+    * nombre : text
+    * apellido_paterno : text
+    * apellido_materno : text
+    * curp : text
+    * fecha_nacimiento : date
+    * sexo : text
+    * entidad : text
+    * municipio : text
+    * localidad : text
+    * direccion : text
+    * calle : text
+    * numero : text
+}
+
+entity tipos_funcionario{
+    * id_tipo_funcionario : number <<generated>>
+    --
+    * nombre : text
+    * description : text
+}
+
+entity eleccion {
+    * id_eleccion : number <<generated>>
+    * id_tipo_eleccion : number <<FK>>
+    --
+    * nombre : text
+    * tipo : text        
+    * fecha : date
+}
+
+entity tipos_eleccion{
+    * id_tipo_eleccion : number <<generated>>
+    --
+    * nombre : text
+    * description : text
+}
+
+
+entity boleta{
+    * id_eleccion
+    --
+    * cantidad_maxima : number
+    * votos_ejercidos : number
+    * entidad : text
+    * municipio : text
+    * localidad : text
+    * distrito : text
+    * seccion_electoral : text
+    * tipo_casilla: text
+}
+
+entity voto{
+    * id_voto : number <<generated>>
+    * candidato : number <<FK>>
+    --
+    * folio: number
+    * fecha_hota: datetime
+}
+
+entity candidato{
+    * id_candidato: number <<generated>>
+    --
+    * nombre : text
+    * hipocoristico : text
+    * cargo : text
+    * descripcion: text
+}
+
+entity partido{
+    * id_partido : number <<generated>>
+    --
+    * nombre : text
+    * hipocoristico : text
+    * uri_imagen : text
+}
+
+funcionario ||--|| tipos_funcionario
+funcionario }|--|| eleccion
+eleccion ||--|| tipos_eleccion
+boleta ||--|| eleccion
+boleta ||--o{ candidato
+boleta ||--o{ voto
+voto ||--|| candidato
+candidato }|--|{ partido
+casilla_generales ||--|{ funcionario
+casilla_generales ||--|{ eleccion
+
+@enduml
