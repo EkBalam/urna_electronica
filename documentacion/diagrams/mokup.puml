@@ -1,0 +1,29 @@
+@startsalt
+scale 2
+{#
+    {+
+        {
+            <&heart>
+        }|
+        {
+            <b> CORAZÓN
+            <b>Propietaria ó Propietario
+            Norma Inés
+            <b>Suplente
+            Zain Moráles
+        }
+    } |
+    {+
+        {
+        <&sun>
+        }|
+        {
+            <b> SOL
+            <b>Propietaria ó Propietario
+            Norma Inés
+            <b>Suplente
+            Zain Moráles
+        }
+    }
+}
+@endsalt

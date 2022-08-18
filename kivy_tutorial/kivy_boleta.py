@@ -12,6 +12,7 @@ from kivy.uix.image import Image
 from kivy.uix.behaviors import ButtonBehavior
 from kivy.graphics import Color, Rectangle
 
+
 class OpcionBoleta(ButtonBehavior, GridLayout):
     
     def __init__(self, image_path, propietario, suplente, hipocoristico, **kwargs):
@@ -45,15 +46,11 @@ class BoletaScreen(GridLayout):
         self.cols = 2
         self.add_widget(Label(text='Boleta'))
         self.add_widget(Label(text=''))
-        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Sombrero para todos'))
+        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Propietario', 'Suplente', 'Sombrero para todos'))
         self.add_widget(OpcionBoleta('images/stitch.png', 'Mario', 'Galicia', 'Otro Sombrero para todos'))
         self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Sombrero para todos'))
         self.add_widget(OpcionBoleta('images/stitch.png', 'Mario', 'Galicia', 'Sombrero para todos'))
-        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Sombrero para todos'))
-        self.add_widget(OpcionBoleta('images/stitch.png', 'Mario', 'Galicia', 'Sombrero para todos'))
-        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Sombrero para todos'))
-        self.add_widget(OpcionBoleta('images/stitch.png', 'Mario', 'Galicia', 'Sombrero para todos'))
-        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Sombrero para todos'))
+
 
 class MyApp(App):
     def build(self):
