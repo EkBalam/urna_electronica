@@ -76,7 +76,9 @@ entity voto{
     * candidato : number <<FK>>
     --
     * folio: number
-    * fecha_hota: datetime
+    * fecha_hora_inicio_votacion: datetime
+    * fecha_hora_voto: datetime
+    * fecha_hora_fin_votacion: datetime
 }
 
 entity candidato{

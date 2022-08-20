@@ -29,7 +29,7 @@ class OpcionBoleta(ButtonBehavior, BoxLayout):
             Color(rgba = color)       
             self.rect = RoundedRectangle(pos=self.pos, size=self.rect_size, radius = [(20, 20), (20, 20)])
             
-        self.add_widget(Image(source=image_path, pos=(20, 25), size= (100,100), pos_hint = {"x": 0.01, "y": 0.01}, size_hint =(.99, .99)))
+        self.add_widget(Image(source=image_path, pos=(20, 25), size= (100,100), pos_hint = {"x": 0.01, "y": 0.01}, size_hint =(0.4, 1)))
         
         gl = GridLayout(cols=1)
         gl.add_widget(Label(text=hipocoristico, font_size = 32))
@@ -56,7 +56,12 @@ class OpcionBoleta(ButtonBehavior, BoxLayout):
 class BoletaScreen(GridLayout):
     def __init__(self, **kwargs) -> None:
         super(BoletaScreen, self).__init__(**kwargs)        
-        self.cols = 2        
+        self.cols = 4        
+        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Propietario', 'Suplente', 'Partido Sombrero', color=(0.52549, 0.07451, 0.07451, 1)))
+        self.add_widget(OpcionBoleta('images/img2.png', 'Mario', 'Galicia', 'Partido Paraiso', color=(0.07451, 0.52549, 0.18824, 1)))
+        self.add_widget(OpcionBoleta('images/img2.png', 'Miguel', 'Blue', 'Partido Paraiso', color=(0.07451, 0.52549, 0.18824, 1)))
+        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Partido Sombrero', color=(0.52549, 0.07451, 0.07451, 1)))
+
         self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Propietario', 'Suplente', 'Partido Sombrero', color=(0.52549, 0.07451, 0.07451, 1)))
         self.add_widget(OpcionBoleta('images/img2.png', 'Mario', 'Galicia', 'Partido Paraiso', color=(0.07451, 0.52549, 0.18824, 1)))
         self.add_widget(OpcionBoleta('images/img2.png', 'Miguel', 'Blue', 'Partido Paraiso', color=(0.07451, 0.52549, 0.18824, 1)))
@@ -72,11 +77,11 @@ class MyApp(App):
     def build(self):
         bs = BoletaScreen(pos_hint = {"x": 0.01, "y": 0.01}, size_hint =(.99, .99), padding = (10, 10))
         bl = BoxLayout(orientation='vertical')
-        bl.add_widget(Label(text='Boleta para Votar', font_size=32, color = [0,0,0,1], size_hint = (1, .20)))
+        bl.add_widget(Label(text='Boleta para Votar', font_size=32, color = [0,0,0,1], size_hint = (1, .1)))
         bl.add_widget(bs)
         return bl
 
 if __name__ == "__main__":
-    Window.size = (1080, 1920)
+    Window.size = (1920, 1080)
     Window.clearcolor = (0.96863, 0.85490, 0.72941, 1)
     MyApp().run()
