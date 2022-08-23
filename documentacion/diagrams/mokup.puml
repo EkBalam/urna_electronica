@@ -1,6 +1,8 @@
 @startsalt
 scale 2
+{* _ | [] | X }
 {#
+   
     {+
         {
             <&heart>
@@ -13,6 +15,54 @@ scale 2
             Zain Moráles
         }
     } |
+    {+
+        {
+        <&sun>
+        }|
+        {
+            <b> SOL
+            <b>Propietaria ó Propietario
+            Norma Inés
+            <b>Suplente
+            Zain Moráles
+        }
+    }|
+    {+
+        {
+        <&sun>
+        }|
+        {
+            <b> SOL
+            <b>Propietaria ó Propietario
+            Norma Inés
+            <b>Suplente
+            Zain Moráles
+        }
+    }
+    {+
+        {
+            <&heart>
+        }|
+        {
+            <b> CORAZÓN
+            <b>Propietaria ó Propietario
+            Norma Inés
+            <b>Suplente
+            Zain Moráles
+        }
+    } |
+    {+
+        {
+        <&sun>
+        }|
+        {
+            <b> SOL
+            <b>Propietaria ó Propietario
+            Norma Inés
+            <b>Suplente
+            Zain Moráles
+        }
+    }|
     {+
         {
         <&sun>

@@ -26,22 +26,28 @@
 
 # Introducción
 
+<p align="justify">
 Algunos de los aspectos fundamentales del voto dentro de las democracias y en espacial en nuestro país, es que sea libre y secreto. El proceso
 de votación le permite al ciudadano mexicano ejercer su máximo derecho de participación en la vida política, cívica y comunitaria del país. Sin embargo, las jornadas electorales son muy complejas y requieren de un especial cuidado durante cada momento del proceso, para lograr cumplir con los aspectos característicos
 del voto, por lo tanto estas jornadas exigen mucho tiempo. Dado que la tecnología es una herramienta que  facilita muchas actividades ayudándonos a realizarlas de manera optima y eficaz, la tecnología se ha agregado en el proceso de votación y de esta manera se ha pensado en implementar una urna electrónica que permita el registro de los votos durante las jornadas electorales.
-
+</p>
+<p align="justify">
 La urna electrónica es un dispositivo que permite recibir los votos emitidos por los ciudadanos y los contabiliza de manera automática [1]. De este modo la urna elimina el conteo manual de votos y consigo los posibles errores que se  pudieran generar en este conteo manual, aumentar la participación de la ciudadanía, ademas de que contribuye a la conservación del medio ambiente ya que esta urna es reusable.
-
+</p>
+<p align="justify">
 En la actualidad con el avance de las tecnologías muchos países están en proceso de implementar nuevos mecanismos para dicho proceso, como la creación de urnas electrónicas.
 Algunos países como Estados Unidos, Gran Bretaña, Suiza, Holanda, Estonia, Venezuela, Brasil, India, y Francia entre otros han implementado diversos mecanismos para que de esta forma los ciudadanos tengan mas confianza respecto a los procesos electorales, el término “e-voting” hace referencia a todo tipo de votación que implique el uso de medios electrónicos.
 En Alemania las urnas electrónicas han sido utilizadas por más de diez años pero todo esto termino cuando la corte dicto que el uso de las urnas electrónicas queda prohibido ya que en 2005 los equipos presentaron problemas, el mas importante fue que los equipos no le ofrecían al ciudadano un comprobante que verificara que su voto había sido emitido lo que esto hizo que los ciudadanos desconfiaran totalmente en la máquina.
-
+</p>
+<p align="justify">
 Como resultado en este trabajo se obtiene el diseño de un prototipo detallado de una urna electrónica funcional y segura. Se muestran las especificaciones de todos los componentes que conformarían el hardware de la urna, así mismo se mencionan los detalles del software, por consiguiente es posible ensamblar y programar la urna electrónica que se propone en este documento.
-
+</p>
+<p align="justify">
 Esta urna electrónica diseñada por alumnos de la Universidad de Xalapa toma como base la cuarta generación de la urna electrónica de Jalisco, sin embargo las tecnologías utilizadas y planteadas para el prototipo son actuales y con un gran margen de escalamiento:
-
+</p>
+<p align="justify">
 Para el sofware se eligieron las siguientes tecnologías, que son usadas por las FANG (Facebook, Amazon, Netflix, Google):
-
+</p>
 
 > - Lenguaje de programación python, que es de propósito general y permite desarrollar aplicaciones de manera rápida y eficiente.
 > - Manejador de base de datos postgres, que es robusto y escalable.
@@ -80,42 +86,192 @@ El hardware utilizado es …
 
 ## Software
 
-### Tecnologías
+### **Lenguajes de programación**
 
-  Lenguajes de programación:
+- **Java**: Es un lenguaje de programación ampliamente utilizado para codificar aplicaciones web. Java es un lenguaje multiplataforma, orientado a objetos y centrado en la red que se puede utilizar como una plataforma en sí mismo. Es un lenguaje de programación rápido, seguro y fiable para codificar todo, desde aplicaciones móviles y software empresarial hasta aplicaciones de macrodatos y tecnologías del lado del servidor.
 
-  Dar introduccion de cada uno de los lenguajes, cuál es el proposito del lenguaje, Ventajas y desventajas
-  OPCIONES: JAVA, PHP, PYTHON, C#.
-  
- ¿Por que elegimos Python?
-Una de las razones es que tiene multiples framworks para diferetes tipos de aplicación
+- **PHP**: Es un lenguaje de programación que permite el desarrollo web o aplicaciones web dinámicas, el cual es apto para incrustar el lenguaje HTML, ahora bien, siempre siguiendo algunas reglas establecidas. 
+Además, el lenguaje PHP favorece a la conexión entre el servidor y a la interfaz del usuario.
 
-  - DJANGO: Muy breve descripció de estos frameworks
-  - FLASK
-  - KIVY
-  - TKINTER
-  ¿Por que Kivy? 
-  Es exportable a dispositivos moviles...
+- **Python**: Es un lenguaje de programación de proposito general comúnmente utilizado para el desarrollo de aplicaciones web, investigación científica, aprendizaje automático y FinTech. Además, su código repetible y sus capacidades de automatización promueven procesos de construcción simplificados.
 
-  MANEJADOR DE BASE DE DATOS
-  OPCIONES: MYSQL, MARIADB, POSTGRESQL, SQLite.
+- **C#**: Es un lenguaje de programación orientado a objetos orientado a componentes. C# proporciona construcciones de lenguaje para admitir directamente estos conceptos, por lo que se trata de un lenguaje natural en el que crear y usar componentes de software.
+C# permite a los desarrolladores crear muchos tipos de aplicaciones seguras y sólidas que se ejecutan en .NET.
 
-  POR QUE ELEGIMOS **POSTGRESQL y SQLite** 
+| | **Java**   | **PHP**    | **Python** | **C#** |
+|-| :---   | :--- | :---   |--- |
+| **Ventajas** | Curva de aprendizaje alta | Lenguaje libre | Baja curva de aprendizaje | Un Lenguaje Seguro |
+|  | Está orientado a los objetos | Dispone de una sintaxis muy limpia | Polivalente y de paradigmas | Orientado a Objetos |
+|  | Es multiplataforma | Se integra de una manera muy simple en la base de datos | Amplia colección de bibliotecas y frameworks | Más Sencillo que C++ |
+|  | Cuenta con liberación de memoria | | Portabilidad| Seguro pero flexible |
+|  | | | Gratis y de código abierto| Mejor Manejo de Memoria |
+| **Desventajas** | Es de lenguaje Interpretado | Brechas de seguridad que puede haber en el servidor | Lentitud | Se debe conseguir una versión reciente de Visual Studio .NET |
+| | Requiere de experiencia en programación | El código fuente no se puede ocultar con facilidad | Consumo de memoria | Alta curva de aprendizaje |
+| | Es de sintaxis compleja | Para su ejecución, es necesario un servidor | Desarrollo móvil | Requisitos de computo altos |
+| | Se ejecuta solo en dispositivos y equipos aptos | | | |
 
-  ### ARQUITECTURA CLIENTE-SERVIDOR
+<p align="justify">
+Para el proyecto de la urna electronica se propone utilizar **python** como lenguaje base. En los últimos años python ha evolucionado para ser uno de los lenguajes preferidos en la industria de desarrollo de software e investigación en inteligencia artificial. Por lo cúal se han desarrollado multiples franworks que permiten trabajar desde aplicaciones de escritorio hasta aplicaciones web para el backend de estas. Dentro de los frameworks explorados encontramos:
+</p>
 
-  ## Diagrama de estados
+> - **[Flask](https://flask.palletsprojects.com/)**: es un framework minimalista para el desarrollo de aplicaciones web de manera rapida y con muy pocas lineas de codigo.
+> - **[Django](https://www.djangoproject.com/)**: es un framework web de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático. Este es mas avanzado que flask.
+> - **[Kivy](https://kivy.org/)**: es un framework Python gratuito y de código abierto para desarrollar aplicaciones móviles y otro software de aplicación multitáctil con una interfaz de usuario natural. Se distribuye bajo los términos de la licencia MIT y puede ejecutarse en Android, iOS, Linux, macOS y Windows.
 
-  ## Diseño de datos
+<p align="justify">
+Para el servidor web se eligío utilizar DJANGO, mientras que para la aplicacíon que vivira en la urna sera desarrollada con KIVY para la interfaz gráfica, permitiendo incluso crear urnas portatiles en dispositivos moviles como tabletas electronicas.
+</p>
 
-  <p align="center">
-    <img src="imgs/ER-green.png" />
-  </p>
 
-  ## Diseño de interfaz de usuario
+### **Administrador de base de datos**
+> - **MYSQL**
+> - **MARIADB**
+> - **POSTGRESQL**
+> - **SQLite**
 
-  ## Diseño de arquitectura
+**POSTGRESQL y SQLite** 
 
+### **Arquitecura Cliente-Servidor**
+
+<p align="justify">La arquitectura cliente-servidor es un modelado de sistemas, donde las tareas se reparten entre proveedores de recursos o servicios, llamados servidores y los consumidores llamados clientes.</p>
+
+<p align="justify">Para la urna electrónica se propone utilizar esta arquitectura, donde habrá un servidor que proveerá de la configuración inicial a las urnas electrónicas, y las urnas electrónicas que mantendrán una copia de la información requerida para su funcionamiento, la cual obtendrán del servidor central, a quien también le comunicaran los resultados finales, ya sea a través de internet o de una red local privada. El siguiente diagrama muestra la arquitectura y la comunicación de cada una de las partes. </p> 
+
+<p align="center">
+  <img src="imgs/Cliente-Servidor.png" />
+</p>
+
+### **Diagrama de estados**
+
+
+
+### **Diseño de datos**
+
+
+> Urna:
+>  - id_urna: number <<generated>>
+>  - public_key: text <<encrypted>>>
+>  ---
+>  - mac_address: text
+>  - uuid_motherboard: uuid
+>  - registered_at: datetime
+>  - updated_at: datetime
+
+> Casilla generales{
+>    * id_casilla : number
+>    ---
+>    * entidad : text
+>    * municipio : text
+>    * localidad : text
+>    * distrito : text
+>    * seccion_electoral : text
+>    * tipo_casilla: text
+
+> usuario{
+>    * id_usuario : number <<generated>>
+>    * id_funcionario : number <<FK>>
+>    ---
+>    * identificador_tarjeta : text
+>    * contraseña: text <<encrypted>>
+
+> permiso{
+>    * id_permiso : number <<generated>>
+>    ---
+>    * nombre : text
+>    * descripcion : text
+
+> funcionario{
+>    * id_funcionario : number <<generated>>
+>    * id_tipo_funcionario: number <<FK>>
+>    ---
+>    * clave_elector : text
+>    * nombre : text
+>    * apellido_paterno : text
+>    * apellido_materno : text
+>    * curp : text
+>    * fecha_nacimiento : date
+>    * sexo : text
+>    * entidad : text
+>    * municipio : text
+>    * localidad : text
+>    * direccion : text
+>   * calle : text
+>    * numero : text
+
+> tipos_funcionario{
+>    * id_tipo_funcionario : number <<generated>>
+>    --
+>    * nombre : text
+>    * description : text
+
+> eleccion
+>    * id_eleccion : number <<generated>>
+>    * id_tipo_eleccion : number <<FK>>
+>   ---
+>    * nombre : text
+>    * tipo : text        
+>    * fecha : date
+
+
+> tipos_eleccion{
+>    * id_tipo_eleccion : number <<generated>>
+>    --
+>    * nombre : text
+>    * description : text
+
+> boleta{
+>    * id_eleccion
+>    --
+>    * cantidad_maxima : number
+>    * votos_ejercidos : number
+>    * entidad : text
+>    * municipio : text
+>    * localidad : text
+>    * distrito : text
+>    * seccion_electoral : text
+>    * tipo_casilla: text
+
+> voto{
+>    * id_voto : number <<generated>>
+>    * candidato : number <<FK>>
+>    ---
+>    * folio: number
+>    * fecha_hora_inicio_votacion: datetime
+>    * fecha_hora_voto: datetime
+>    * fecha_hora_fin_votacion: datetime
+
+> candidato{
+>    * id_candidato: number <<generated>>
+>    ---
+>    * nombre : text
+>    * hipocoristico : text
+>    * cargo : text
+>    * descripcion: text
+
+> partido{
+>    * id_partido : number <<generated>>
+>   ---
+>    * nombre : text
+>    * hipocoristico : text
+>    * uri_imagen : text
+
+> log_actividad{
+>    * id_log : number <<generated>>
+>    * id_usuario : number <<FK>>
+>    --
+>    * actividad : text
+>    * fecha_hora : datetime
+
+<p align="center">
+  <img src="imgs/ER-green.png" />
+</p>
+
+### **Diseño de interfaz de usuario**
+
+<p align="center">
+  <img src="imgs/boleta_wireframe.png" />
+  <img src="imgs/boleta.png" />
+</p>
 
 # Diseño y modelado de la urna
 [//]: # "(Plano en 3D, Impresión en 4D, maqueta, dibujo isométrico, etc.), especificando material y dimensiones."
