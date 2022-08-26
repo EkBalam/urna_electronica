@@ -56,8 +56,8 @@ class OpcionBoleta(ButtonBehavior, BoxLayout):
 class BoletaScreen(GridLayout):
     def __init__(self, **kwargs) -> None:
         super(BoletaScreen, self).__init__(**kwargs)        
-        self.cols = 4        
-        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Propietario', 'Suplente', 'Partido Sombrero', color=(0.52549, 0.07451, 0.07451, 1)))
+        self.cols = 3     
+        self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Nat', 'Adan', 'Partido Sombrero', color=(0.268, 0.097, 0.334, 0.5)))
         self.add_widget(OpcionBoleta('images/img2.png', 'Mario', 'Galicia', 'Partido Paraiso', color=(0.07451, 0.52549, 0.18824, 1)))
         self.add_widget(OpcionBoleta('images/img2.png', 'Miguel', 'Blue', 'Partido Paraiso', color=(0.07451, 0.52549, 0.18824, 1)))
         self.add_widget(OpcionBoleta('images/sombrerito.webp', 'Juan', 'Pedro', 'Partido Sombrero', color=(0.52549, 0.07451, 0.07451, 1)))
@@ -83,5 +83,5 @@ class MyApp(App):
 
 if __name__ == "__main__":
     Window.size = (1920, 1080)
-    Window.clearcolor = (0.96863, 0.85490, 0.72941, 1)
+    Window.clearcolor = (0.268, 0.097, 0.334, 0.5)
     MyApp().run()

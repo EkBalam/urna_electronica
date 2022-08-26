@@ -14,7 +14,7 @@ entity urna {
     updated_at: datetime
 }
 
-entity casilla_generales{
+entity casilla{
     * id_casilla : number
     --
     * entidad : text
@@ -84,7 +84,8 @@ entity tipos_eleccion{
 
 
 entity boleta{
-    * id_eleccion
+    * id_boleta: number <<generated>>
+    * id_eleccion: number <<FK>>
     --
     * cantidad_maxima : number
     * votos_ejercidos : number
@@ -103,7 +104,6 @@ entity voto{
     * folio: number
     * fecha_hora_inicio_votacion: datetime
     * fecha_hora_voto: datetime
-    * fecha_hora_fin_votacion: datetime
 }
 
 entity candidato{
@@ -141,8 +141,8 @@ boleta ||--o{ candidato
 boleta ||--o{ voto
 voto ||--|| candidato
 candidato }|--|{ partido
-casilla_generales ||--|{ funcionario
-casilla_generales ||--|{ eleccion
+casilla ||--|{ funcionario
+casilla ||--|{ eleccion
 usuario ||--|{ log_actividad
 
 @enduml
