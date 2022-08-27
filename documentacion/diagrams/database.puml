@@ -4,7 +4,17 @@
 
 skinparam linetype ortho
 
-entity casilla_generales{
+entity urna {
+    * id_urna: number <<generated>>
+    --
+    public_key: text <<encrypted>>
+    mac_address: text
+    uuid_motherboard: uuid
+    registered_at: datetime
+    updated_at: datetime
+}
+
+entity casilla{
     * id_casilla : number
     --
     * entidad : text
@@ -13,6 +23,21 @@ entity casilla_generales{
     * distrito : text
     * seccion_electoral : text
     * tipo_casilla: text
+}
+
+entity usuario{
+    * id_usuario : number <<generated>>
+    * id_funcionario : number <<FK>>
+    --
+    * identificador_tarjeta : text
+    * contraseña: text <<encrypted>>
+}
+
+entity permiso{
+    * id_permiso : number <<generated>>
+    --
+    * nombre : text
+    * descripcion : text
 }
 
 entity funcionario{
@@ -59,7 +84,8 @@ entity tipos_eleccion{
 
 
 entity boleta{
-    * id_eleccion
+    * id_boleta: number <<generated>>
+    * id_eleccion: number <<FK>>
     --
     * cantidad_maxima : number
     * votos_ejercidos : number
@@ -76,7 +102,8 @@ entity voto{
     * candidato : number <<FK>>
     --
     * folio: number
-    * fecha_hota: datetime
+    * fecha_hora_inicio_votacion: datetime
+    * fecha_hora_voto: datetime
 }
 
 entity candidato{
@@ -96,6 +123,16 @@ entity partido{
     * uri_imagen : text
 }
 
+entity log_actividad{
+    * id_log : number <<generated>>
+    * id_usuario : number <<FK>>
+    --
+    * actividad : text
+    * fecha_hora : datetime
+}
+
+usuario }|--|{ permiso
+usuario ||--|| funcionario
 funcionario ||--|| tipos_funcionario
 funcionario }|--|| eleccion
 eleccion ||--|| tipos_eleccion
@@ -104,7 +141,8 @@ boleta ||--o{ candidato
 boleta ||--o{ voto
 voto ||--|| candidato
 candidato }|--|{ partido
-casilla_generales ||--|{ funcionario
-casilla_generales ||--|{ eleccion
+casilla ||--|{ funcionario
+casilla ||--|{ eleccion
+usuario ||--|{ log_actividad
 
 @enduml

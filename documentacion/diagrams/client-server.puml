@@ -1,0 +1,37 @@
+@startuml
+
+!theme crt-green
+
+skinparam linetype ortho
+
+node "Servidor" {
+  HTTPS- [Servidor WEB (Django)]
+  database "Postgresql"
+  [Servidor WEB (Django)] <--> Postgresql
+}
+
+
+node "Urna Cliente" {
+  [Cliente Conexion (Flask)] - HTTP
+  [Aplicación escritorio (Kivy)]
+  [Conexión a dispositivos]
+  database "SQLite"
+
+  [Aplicación escritorio (Kivy)] --> SQLite
+  [Aplicación escritorio (Kivy)] <--> [Conexión a dispositivos]
+  [Aplicación escritorio (Kivy)] <--> [Cliente Conexion]
+}
+
+
+cloud "Internet"
+
+cloud "Red Local"
+
+
+HTTP --> Internet
+HTTP --> [Red Local]
+
+Internet --> HTTPS
+[Red Local] --> HTTPS
+
+@enduml
