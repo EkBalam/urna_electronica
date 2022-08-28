@@ -9,7 +9,7 @@
 # Universidad de Xalapa
 ***  
 
-> "Till now, madness has been thought a small island in an ocean of sanity. I am beginning to suspect that it is not an island at all but a continent." -- [Machado de Assis](https://en.wikipedia.org/wiki/Machado_de_Assis), *[The Psychiatrist](https://en.wikipedia.org/wiki/O_alienista)*.
+> "Sin libertad, la democracia es despotismo, sin democracia la libertad es una quimera." -- Octavio Paz.
 
 ***
 ****** 
@@ -19,8 +19,7 @@
   - Jiménez Ponce Norma Ines
   - Morales Martínez Zain Aziel
   - Reyes Vázquez Brenda
-  - Aguilar Justo Adan Enrique (Disque el maestro responsable) 
-  - Aguas con Yaser (Invitado Especial)
+  - Aguilar Justo Adan Enrique
 
 ******
 
@@ -76,6 +75,7 @@ El hardware utilizado es …
   - **Computadora**:
   - **E-voting**: voto a distancia a través de internet
   - **Framework**: 
+  - **GUI**:
   - **Impresora térmica**: 
   - **Lector de tarjetas**:
   - **Partido político**: son grupos de ciudadanos que comparten una ideología política y la promueven 
@@ -364,15 +364,44 @@ Este modelo contempla lo mínimo necesario para el correcto funcionamiento de la
 
 ### **Diseño de interfaz de usuario**
 
+<p align="justify">
+Como se mencionó anteriormente, el leguaje selecionado es Python junto con el framework de Kivy para el diseño de la interfaz gráfica de usuario (GUI). En las siguientes imagenes se muestra como sera el estilo gráfico de la interfaz, siendo esta acoplada a una pantalla tactitl de resolucion 1080x1920.
+</p>
+
+<p align="justify">
+La siguiente imagen es una captua de pantalla de la interfaz destinada a presentar la boleta al votante. En el encabezado se puede ver el logo del OPLE, la elección que se lleva a cabo y donde esta la casilla ubicada. Cabe acalarar que los colores son meramente representatuivos y estos pueden cambiarse para configurar el estilo de la eleccióny opcion de voto.
+</p>
 
 <p align="center">
-  <figure >
-    <img src="imgs/boleta_wireframe.png"  width="45%" height ="200px"/>
-    <div style="display:inline;width:5px;"></div>
-    <img src="imgs/boleta.png"  width="45%" height ="200px"/>
-  <figcaption align="center">Interfaz de votación: izquieda, mockup, derecha, diseñada en kivy</figcaption>
+  <figure >    
+    <img src="imgs/boleta.png"/>
+  <figcaption align="center">Interfaz de boleta para ejercer el voto</figcaption>
   </figure>
 </p>
+
+<p align="justify">
+Cuando el votante haya elegido su opción recibira un cuadro de confirmación. Tal como se muestra en la siguiente imagen. Siempre podra regresar a la pantalla de la boleta mientras no este seguro de su voto.
+</p>
+
+<p align="center">
+  <figure >    
+    <img src="imgs/boleta_voto.png"/>
+  <figcaption align="center">Confirmación del voto</figcaption>
+  </figure>
+</p>
+
+<p align="justify">
+Finalmente se muestra la capacidad multiplataforma tanto de Kivy como de python para ejecutarse en dispositivos moviles tanto android como ios. Esto permite que se puedan agregar tablets como urnas de emergencia, o a minorar costos para elecciones que requieran menos requisitos de seguridad como los contemplados para la las elecciones estatales y federales. Por ejemplo para elecciones en escuelas o de caracter privado, podria ofrecerse esta opción, menteniendo todo el funcionamiento de la urna a nivel software.
+</p>
+
+<p align="center">
+  <figure >    
+    <img src="imgs/pc_and_android.png"/>
+  <figcaption align="center">Multiplataforma</figcaption>
+  </figure>
+</p>
+
+
 
 # Diseño y modelado de la urna
 [//]: # "(Plano en 3D, Impresión en 4D, maqueta, dibujo isométrico, etc.), especificando material y dimensiones."
