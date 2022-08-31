@@ -27,15 +27,15 @@
 
 <p align="justify">
 Algunos de los aspectos fundamentales del voto dentro de las democracias y en especial en nuestro país, es que sea libre y secreto. El proceso
-de votación le permite al ciudadano mexicano ejercer su máximo derecho de participación en la vida política, cívica y comunitaria del país. Sin embargo, las jornadas electorales son muy complejas y requieren de un especial cuidado durante cada momento del proceso, para lograr cumplir con los aspectos característicos
-del voto; por lo tanto, estas jornadas exigen mucho tiempo. Dado que la tecnología es una herramienta que facilita muchas actividades ayudándonos a realizarlas de manera optima y eficaz, la tecnología se ha agregado en el proceso de votación y de esta manera se ha pensado en implementar una urna electrónica que permita el registro de los votos durante las jornadas electorales.
+de votación le permite al ciudadano mexicano ejercer su máximo derecho de participación en la vida política, cívica y comunitaria del país. Sin embargo, las jornadas electorales son muy complejas y requieren de un especial cuidado durante cada momento del proceso para lograr cumplir con los aspectos característicos
+del voto; por lo tanto, estas jornadas exigen mucho tiempo. Dado que la tecnología es una herramienta que facilita muchas actividades ayudándonos a realizarlas de manera óptima y eficaz, la tecnología se ha agregado en el proceso de votación y de esta manera se ha pensado en implementar una urna electrónica que permita el registro de los votos durante las jornadas electorales.
 </p>
 <p align="justify">
-La urna electrónica es un dispositivo que permite recibir los votos emitidos por los ciudadanos y los contabiliza de manera automática [1]. De este modo, la urna elimina el conteo manual de votos y consigo los posibles errores que se  pudieran generar en este conteo manual, aumenta la participación de la ciudadanía, ademas de que contribuye a la conservación del medio ambiente, ya que esta urna es reusable.
+La urna electrónica es un dispositivo que permite recibir los votos emitidos por los ciudadanos y los contabiliza de manera automática [1]. De este modo, la urna elimina el conteo manual de votos y consigo los posibles errores que se  pudieran generar en este conteo manual, aumenta la participación de la ciudadanía, además de que contribuye a la conservación del medio ambiente, ya que esta urna es reusable.
 </p>
 <p align="justify">
 En la actualidad con el avance de las tecnologías muchos países están en proceso de implementar nuevos mecanismos para dicho proceso, como la creación de urnas electrónicas.
-Algunos países como Estados Unidos, Gran Bretaña, Suiza, Holanda, Estonia, Venezuela, Brasil, India y Francia, entre otros, han implementado diversos mecanismos para que de esta forma los ciudadanos tengan más confianza respecto a los procesos electorales. El término “e-voting” hace referencia a todo tipo de votación que implique el uso de medios electrónicos; en Alemania, las urnas electrónicas han sido utilizadas por más de diez años, pero todo esto terminó cuando la corte dictó que el uso de las urnas electrónicas queda prohibido ya que en 2005 los equipos presentaron problemas, el más importante fue que los equipos no le ofrecían al ciudadano un comprobante que verificara que su voto había sido emitido, lo que esto hizo que los ciudadanos desconfiaran totalmente en la máquina.
+Algunos países como Estados Unidos, Gran Bretaña, Suiza, Holanda, Estonia, Venezuela, Brasil, India y Francia, entre otros, han implementado diversos mecanismos para que de esta forma los ciudadanos tengan más confianza respecto a los procesos electorales. El término “e-voting” hace referencia a todo tipo de votación que implique el uso de medios electrónicos; en Alemania, las urnas electrónicas han sido utilizadas por más de diez años, pero todo esto terminó cuando la corte dictó que el uso de las urnas electrónicas quedaba prohibido ya que en 2005 los equipos presentaron problemas, el más importante fue que los equipos no le ofrecían al ciudadano un comprobante que verificara que su voto había sido emitido, esto hizo que los ciudadanos desconfiaran totalmente de la máquina.
 </p>
 <p align="justify">
 Como resultado en este trabajo, se obtiene el diseño de un prototipo detallado de una urna electrónica funcional y segura. Se muestran las especificaciones de todos los componentes que conformarían el hardware de la urna, así mismo se mencionan los detalles del software, por consiguiente, es posible ensamblar y programar la urna electrónica que se propone en este documento.
@@ -55,9 +55,9 @@ El hardware utilizado es:
 |  | | 
 | --- | --- | 
 |Pantalla para Testigo  | Este es un monitor también conocido como pantalla, esta se encarga de mostrar la información del equipo, por ejemplo imágenes y texto; todas las imágenes en una pantalla son mostradas a través de pixeles, esto hace que la resolución de una pantalla dependa de la cantidad de pixeles que tenga.        |
-|Pantalla táctil para principal   | Una pantalla táctil es un dispositivo de entrada y salida de información y este recibe ordenes con el tacto de un objeto como lo puede ser el dedo de una persona.        |
+|Pantalla táctil para principal   | Una pantalla táctil es un dispositivo de entrada y salida de información y este recibe órdenes con el tacto de un objeto como lo puede ser el dedo de una persona.        |
 |Impresora térmica |Una impresora térmica es un tipo de dispositivo de impresión que usa el calor para poder mostrar la imagen o texto en papel lo que hace que no necesite de tinta lo que hace que sea menos cotoso su uso sin embargo para poder imprimir necesita tener papel térmico. |
-|Lector de tarjetas | Es un dispositivo capaz de leer la información de una tarjeta sin tener que registrar los datos de manera manual haciendo que la lectura de información sea más rápida .|
+|Lector de tarjetas | Es un dispositivo capaz de leer la información de una tarjeta sin tener que registrar los datos de manera manual haciendo que la lectura de información sea más rápida. |
 |UPS | Un UPS (Uninterruptable Power Supply) en español se conoce como sistema de alimentación interrumpida, este dispositivo permite que un dispositivo eléctrico siga funcionando cuando el suministro de energía falle. |
 | Computadora | Es un dispositivo que se usa para realizar tareas de manera digital, ahorrando tiempo, trabajo y velocidad en la realización de los trabajos. |
 
@@ -570,17 +570,17 @@ El software es el encargado de proveer la interacción de las personas con la ur
 </p>
 
 <p align="justify">
-Un correcto diseño de software permitira que el sistema pueda escalar (incremento de urnas, usuarios, elecciones, etc.) sin perder eficiencia ni requerir un constante mantenimiento. Además debe ser flexibe y tolerante a cambios, es decir, si se requiere integrar alguna nueva funcionalidad, el diseño del software debe ser capaz de aceptarla con poca o nula intervención en las funcionalidades existentens dentro de esté.
+Un correcto diseño de software permitirá que el sistema pueda escalar (incremento de urnas, usuarios, elecciones, etc.) sin perder eficiencia ni requerir un constante mantenimiento. Además, debe ser flexible y tolerante a cambios, es decir, si se requiere integrar alguna nueva funcionalidad, el diseño del software debe ser capaz de aceptarla con poca o nula intervención en las funcionalidades existentes dentro de esté.
 </p>
 
 <p align="justify">
-Los siguiente apartados detallan la selección del lenguaje de programación propuesto, así como los frameworks y motor de base de datos, a utilizar para el desarrollo del software. También se presenta el modelo cliente-servidor que sera a partir del cual se partira para el diseño de interacción entre las urnas. Finalmente se presenta y describe el diagrama relacional, donde se muestra la información que será almacenada dentro del sistema.
+Los siguientes apartados detallan la selección del lenguaje de programación propuesto, así como los frameworks y motor de base de datos, a utilizar para el desarrollo del software. También se presenta el modelo cliente-servidor que será a partir del cual se partirá para el diseño de interacción entre las urnas. Finalmente se presenta y describe el diagrama relacional, donde se muestra la información que será almacenada dentro del sistema.
 </p>
 
 ### **Lenguajes de programación**
 
 <p align="justify">
-El lenguaje de progrmación permite dar instrucciones a la computadora, que permiten desarollar software. Cada lenguaje de programación tiene diferentes caracteristicas y han sido pensado para solucionar diferentes tipos de problemas, cada uno cuenta con ventajas y desventajas, por lo cual, hay que elegir aque que se adapte mejor a las necesidades de la urna electrónica. 
+El lenguaje de programación permite dar instrucciones a la computadora, que permiten desarrollar software. Cada lenguaje de programación tiene diferentes características y han sido pensado para solucionar diferentes tipos de problemas, cada uno cuenta con ventajas y desventajas, por lo cual, hay que elegir aquel que se adapte mejor a las necesidades de la urna electrónica. 
 </p>
 
 <p align="justify">
@@ -615,17 +615,17 @@ C# permite a los desarrolladores crear muchos tipos de aplicaciones seguras y s�
 
 
 <p align="justify">
-Para el proyecto de la urna electronica se propone utilizar python como lenguaje base. En los últimos años python ha evolucionado para ser uno de los lenguajes preferidos en la industria de desarrollo de software e investigación en inteligencia artificial. Por lo cual, se han desarrollado multiples frameworks que permiten trabajar desde aplicaciones de escritorio hasta aplicaciones web para el backend de estas. Dentro de los frameworks explorados encontramos:
+Para el proyecto de la urna electrónica se propone utilizar python como lenguaje base. En los últimos años python ha evolucionado para ser uno de los lenguajes preferidos en la industria de desarrollo de software e investigación en inteligencia artificial. Por lo cual, se han desarrollado múltiples frameworks que permiten trabajar desde aplicaciones de escritorio hasta aplicaciones web para el backend de estas. Dentro de los frameworks explorados encontramos:
 </p>
 
-> - **[Flask](https://flask.palletsprojects.com/)**: es un framework minimalista para el desarrollo de aplicaciones web de manera rapida y con muy pocas líneas de código.
+> - **[Flask](https://flask.palletsprojects.com/)**: es un framework minimalista para el desarrollo de aplicaciones web de manera rápida y con muy pocas líneas de código.
 > - **[Django](https://www.djangoproject.com/)**: es un framework web de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático. Este es más avanzado que flask.
 > - **[Kivy](https://kivy.org/)**: es un framework Python gratuito y de código abierto para desarrollar aplicaciones móviles y otro software de aplicación multitáctil con una interfaz de usuario natural. Se distribuye bajo los términos de la licencia MIT y puede ejecutarse en Android, iOS, Linux, macOS y Windows.
-> - **[Tkinter](https://docs.python.org/es/3/library/tkinter.html)**: es una libreria de Python y funciona para la creación y desarrollo de interfaces 
-gráficas de usuario, es rápido y fácil de programar aunque su documentación estándar es débil
+> - **[Tkinter](https://docs.python.org/es/3/library/tkinter.html)**: es una librería de Python y funciona para la creación y desarrollo de interfaces 
+gráficas de usuario, es rápido y fácil de programar, aunque su documentación estándar es débil
 
 <p align="justify">
-Para el servidor web se eligío utilizar DJANGO, mientras que para la aplicacíon que vivira en la urna sera desarrollada con KIVY para la interfaz gráfica.
+Para el servidor web se eligío utilizar DJANGO, mientras que para la aplicación que vivirá en la urna será desarrollada con KIVY para la interfaz gráfica.
 </p>
 
 ### **¿Por qué Kivy?**
@@ -636,7 +636,7 @@ Para el servidor web se eligío utilizar DJANGO, mientras que para la aplicacío
 - Funciona mejor que las alternativas multiplataforma de HTML5.
 - Orientada a generar prototipos de manera rápida y con diseños eficientes que favorecen
  códigos re-utilizables y de fácil despliegue.
-- Permitie crear urnas portatiles en dispositivos moviles como tabletas electronicas.
+- Permite crear urnas portátiles en dispositivos móviles como tabletas electrónicas.
 
 
 ### **Manejador de base de datos**
@@ -650,31 +650,31 @@ Para el trabajo en la parte de software en el manejo de bases de datos nuestras 
 </p>
 
 > - **MYSQL**: Es el manejador de bases de datos más usado, fue diseñado para bases de datos grandes, se basa en SQL y en la arquitectura cliente-servidor. Es el sistema de gestión de datos más utilizado por su compatibilidad con varias plataformas informáticas como Linux, Windows y macOS, también es compatible con lenguajes de programación como C, C++, Java, Perl, PHP, Python y Ruby. MySQL  es de código abierto, lo que implica que puede ser modificado bajo los términos de la licencia pero si es necesario la versión con licencia para usarlo en aplicaciones comerciales.
-> - **MARIADB**: Es un manejador de datos que tiene parecido con MySQL, ya que fue desarrollado por uno de sus desarrolladores, este también es un software libre lo que mas destaca de este software es que puede remplazar a los programas que funcionan con MySQL.
+> - **MARIADB**: Es un manejador de datos que tiene parecido con MySQL, ya que fue desarrollado por uno de sus desarrolladores, este también es un software libre lo que más destaca de este software es que puede remplazar a los programas que funcionan con MySQL.
 > - **POSTGRESQL**: Es un sistema de bases relacionales libre y de código abierto aparte de que ofrece una gran cantidad de opciones avanzadas, por lo que es considerado el mejor manejador de bases de datos en la actualidad.
 > - **SQLite**: Es un software libre que permite almacenar información en dispositivos de manera sencilla, eficaz, potente y rápida en equipos de pocas capacidades de hardware, como lo puede ser un teléfono. SQLite implementa el estándar sql92 y también agrega extensiones que facilitan el uso de cualquier ambiente de desarrollo, lo que permite que pueda soportar consultas básicas hasta otras más complejas, también lo más importante es que puede ser usado tanto en dispositivos móviles como en dispositivos de escritorio, todo gracias a que cuenta con compatibilidad.
 
 <p align="justify">
-Para el proyecto de la urna electrónica se propone usar PostgreSQL y SQLite el primero es una muy buena opción ya que PostgreSQL es un software que trabaja mejor con bases de datos grandes y como la urna esta planeada con el objetivo de registrar todos los votos de la población será una muy buena opción para manejar los datos de votos, también se propone el uso de SQLite por ser un programa muy ligero que puede funcionar en cualquier tipo de equipos con poca capacidad de hardware por lo que se pueden crear urnas digitales en dispositivos más pequeños como móviles o tabletas electrónicas. 
+Para el proyecto de la urna electrónica se propone usar PostgreSQL y SQLite el primero es una muy buena opción ya que PostgreSQL es un software que trabaja mejor con bases de datos grandes y como la urna está planeada con el objetivo de registrar todos los votos de la población será una muy buena opción para manejar los datos de votos, también se propone el uso de SQLite por ser un programa muy ligero que puede funcionar en cualquier tipo de equipos con poca capacidad de hardware por lo que se pueden crear urnas digitales en dispositivos más pequeños como móviles o tabletas electrónicas. 
 </p>
 
 ### **Arquitecura Cliente-Servidor**
 
 <p align="justify">La arquitectura cliente-servidor es un modelado de sistemas, donde las tareas se reparten entre proveedores de recursos o servicios, llamados servidores y los consumidores llamados clientes.</p>
 
-<p align="justify">Para la urna electrónica se propone utilizar esta arquitectura, donde habrá un servidor que proveerá de la configuración inicial a las urnas electrónicas, y las urnas electrónicas que mantendrán una copia de la información requerida para su funcionamiento, la cual obtendrán del servidor central, a quien también le comunicaran los resultados finales, ya sea a través de internet o de una red local privada. El siguiente diagrama muestra la arquitectura y la comunicación de cada una de las partes. </p> 
+<p align="justify">Para la urna electrónica se propone utilizar esta arquitectura, donde habrá un servidor que proveerá de la configuración inicial a las urnas electrónicas, y las urnas electrónicas que mantendrán una copia de la información requerida para su funcionamiento, la cual obtendrán del servidor central, a quien también le comunicarán los resultados finales, ya sea a través de internet o de una red local privada. El siguiente diagrama muestra la arquitectura y la comunicación de cada una de las partes. </p> 
 
 <p align="center">
 <figure>
   <img src="imgs/Cliente-Servidor.png"/>
-  <figcaption align="center">Diagrama componentes de cliente-servidor, se puede observar que el cliente utilizará SQLite para el almacenamiento de datos, mientras que el servidor Postgres, para gestionar multiples urnas.</figcaption>
+  <figcaption align="center">Diagrama componentes de cliente-servidor, se puede observar que el cliente utilizará SQLite para el almacenamiento de datos, mientras que el servidor Postgres, para gestionar múltiples urnas.</figcaption>
 </figure>
 </p>
 
 ### **Diseño de datos**
 
 <p align="justify">
-El sistema de la urna electrónica requiere almacenar información para su correcto funcionamiento, en el siguiente diagrama se muestra el diseño de la estructura de los datos y su relación entre ellos. Entre las entidades más relevantes podemos ver, los datos generales de las Casillas, los funcionarios y la boleta, donde se almacenará el conteo de los votos, se modela el candidato y su relación con multiples partidos.
+El sistema de la urna electrónica requiere almacenar información para su correcto funcionamiento, en el siguiente diagrama se muestra el diseño de la estructura de los datos y su relación entre ellos. Entre las entidades más relevantes podemos ver, los datos generales de las Casillas, los funcionarios y la boleta, donde se almacenará el conteo de los votos, se modela el candidato y su relación con múltiples partidos.
 </p>
 
 <p align="center">
@@ -684,42 +684,42 @@ El sistema de la urna electrónica requiere almacenar información para su corre
 </figure>
 </p>
 
-A contniuación se describe cada una de las entidades y sus atributos:
+A continuación se describe cada una de las entidades y sus atributos:
 
-> **Urna**: Esta entidad será la encargada en el servidor de almacenar todas las urnas registradas y autorizadas a recibir o enviar información. Mientras que en la urna, almacenará su información para solicitar los accesos pertinentes.
->  - id_urna: number \<<auto-generado\>>: Identificador númerico de la urna, único para cada urna.
+> **Urna**: Esta entidad será la encargada en el servidor de almacenar todas las urnas registradas y autorizadas a recibir o enviar información. Mientras que, en la urna, almacenará su información para solicitar los accesos pertinentes.
+>  - id_urna: number \<<auto-generado\>>: Identificador numérico de la urna, único para cada urna.
 >  - public_key: text \<<encriptado\>>: Llave pública, para poder encriptar y desencriptar los mensajes, también se puede usar para verificar la identidad de la urna.
 >  ---
 >  - mac_address: text: Dirección MAC del dispositivo de red único en el mundo para el dispositivo colocado, usado para la autenticación junto con la llave publica y el uudi de la tarjeta madre.
 >  - uuid_motherboard: uuid: Identificador único de la tarjeta madre utilizada en la urna, es asignado por el fabricante y también se usa para identificar la urna.
 >  - registered_at: datetime: Fecha en que la urna se registra en el sistema principal.
->  - updated_at: datetime: Fecha de ultima actualización de la urna. Puede ser cuando se configuró o cuando se reinició.
+>  - updated_at: datetime: Fecha de última actualización de la urna. Puede ser cuando se configuró o cuando se reinició.
 
 > **Casilla**: Almacenará la información de la casilla a la que fue asignada la urna.
->    * id_casilla : number \<<auto-generado\>>: Identificador númerico único de registro de la casilla.
+>    * id_casilla : number \<<auto-generado\>>: Identificador numérico único de registro de la casilla.
 >    ---
 >    * entidad : text: Entidad federativa donde se instalará la casilla.
->    * municipio : text: Municio donde se instalará la casilla.
+>    * municipio : text: Municipio donde se instalará la casilla.
 >    * localidad : text: Localidad donde se instalará la casilla.
 >    * distrito : text: Distrito al que pertenece la casilla.
 >    * seccion_electoral : text: Sección de la casilla.
 >    * tipo_casilla: text: Tipo de casilla.
 
 > **Usuario**: Entidad encargada de almacenar la información de los usuarios que pueden acceder a algún tipo de configuración de la urna.
->    * id_usuario : number \<<auto-generado\>>: Identificador númerico único del usuario.
->    * id_funcionario : number \<<llave-foranea\>>: Los funcionarios son aquellos primeros usuarios que seran registrados (tienen una entidad para sus datos propia)
+>    * id_usuario : number \<<auto-generado\>>: Identificador numérico único del usuario.
+>    * id_funcionario : number \<<llave-foranea\>>: Los funcionarios son aquellos primeros usuarios que serán registrados (tienen una entidad para sus datos propia)
 >    ---
 >    * identificador_tarjeta : text: Identificador de tarjeta para su acceso.
 >    * contraseña: text \<<encriptado\>>: Contraseña para el ingreso en caso de que la tarjeta no funcione, esta se encontrará encriptada.
 
 > **Permiso**: Almacena el nivel de acceso de los usuarios, ya que no todos los usuarios tienen permiso de realizar todas las actividades.
->    * id_permiso : number \<<auto-generado\>>: Identificador númerico único de los permisos.
+>    * id_permiso : number \<<auto-generado\>>: Identificador numérico único de los permisos.
 >    ---
 >    * nombre : text: Nombre del permiso. (ej. SuperUsuario)
->    * descripcion : text: Descripción larga del permiso registrado.
+>    * descripción : text: Descripción larga del permiso registrado.
 
 > **Funcionario**: Datos de los funcionarios de casilla.
->    * id_funcionario : number <<auto-generado>>: Identificador númerico único.
+>    * id_funcionario : number <<auto-generado>>: Identificador numérico único.
 >    * id_tipo_funcionario: number <<llave-foranea>>: Tipo de funcionario, categoría o cargo.
 >    ---
 >    * clave_elector : text: Clave de elector del funcionario, debe ser un ciudadano.
@@ -733,42 +733,42 @@ A contniuación se describe cada una de las entidades y sus atributos:
 >    * entidad : text: Entidad federativa donde vive el funcionario.
 >    * municipio : text: Municipio donde vive el funcionario.
 >    * localidad : text: Localidad donde vive el funcionario.
->    * direccion : text: Dirección donde vive el funcionario.
+>    * dirección : text: Dirección donde vive el funcionario.
 >    * calle : text: Calle donde vive el funcionario.
->    * numero : text: Número de casa donde vive el funcionario.
+>    * número : text: Número de casa donde vive el funcionario.
 
 > **Tipos funcionario**: Catálogo de la información de los diferentes tipos de funcionario.
->    * id_tipo_funcionario : number \<<auto-generado\>>: Identificador númerico único.
+>    * id_tipo_funcionario : number \<<auto-generado\>>: Identificador numérico único.
 >    ---
 >    * nombre : text: Nombre del cargo/tipo/categoría del funcionario.
->    * description : text: Descripción larga del tipo de funcionario.
+>    * descripción : text: Descripción larga del tipo de funcionario.
 
-> **Eleccion**: 
->    * id_eleccion : number <<auto-generado>>: Identificador númerico único.
->    * id_tipo_eleccion : number <<llave-foranea>>: Identificador del tipo de elección que se esta ejecutando.
+> **Elección**: 
+>    * id_elección : number <<auto-generado>>: Identificador numérico único.
+>    * id_tipo_elección : number <<llave-foranea>>: Identificador del tipo de elección que se está ejecutando.
 >   ---
 >    * nombre : text: Nombre de la elección.
 >    * tipo : text: Tipo de elección.
 >    * fecha : date: Fecha en la que se debe llevar a cabo la elección.
 
 
-> **Tipos eleccion**: Catalogo de tipos de elección.
->    * id_tipo_eleccion : number <<auto-generado>>: Identificador númerico único.
+> **Tipos elección**: Catalogo de tipos de elección.
+>    * id_tipo_elección : number <<auto-generado>>: Identificador numérico único.
 >    ---
 >    * nombre : text: Nombre del tipo de elección.
->    * description : text: Descripción larga del tipo de elección.
+>    * descripciónn : text: Descripción larga del tipo de elección.
 
-> **Boleta**: LLeva el conteo de los votos y la estructura de las boletas que se mostrarán en pantalla.
->    * id_boleta: number <<auto-generado>>: Identificador númerico único.
->    * id_eleccion : number <<llave-foranea>>: Identificador de la elección a la que pertenece la boleta.
+> **Boleta**: Lleva el conteo de los votos y la estructura de las boletas que se mostrarán en pantalla.
+>    * id_boleta: number <<auto-generado>>: Identificador numérico único.
+>    * id_elección : number <<llave-foránea>>: Identificador de la elección a la que pertenece la boleta.
 >    ---
->    * cantidad_maxima : number: Cantidad máxima de boletas que deben mostrarse ( en caso de que exista un limite, 0 para sin límite)
+>    * cantidad_máxima : number: Cantidad máxima de boletas que deben mostrarse ( en caso de que exista un limite, 0 para sin límite)
 >    * votos_ejercidos : number: Contador de votos ejercidos sobre esta configuración de boleta.
 >    * entidad : text: Entidad para la que está configurada la boleta.
 >    * municipio : text: Municipio para la que está configurada la boleta.
 >    * localidad : text: Localidad para la que está configurada la boleta.
 >    * distrito : text: Distrito para la que está configurada la boleta.
->    * seccion_electoral : text: Sección para la que esta configurada la boleta.
+>    * seccion_electoral : text: Sección para la que está configurada la boleta.
 >    * tipo_casilla: text: Tipo de casilla a la que pertenece la boleta.
 
 > **Voto**: Registro del voto, no se registra quien vota.
@@ -776,27 +776,27 @@ A contniuación se describe cada una de las entidades y sus atributos:
 >    * candidato : number <<llave-foranea>>: Identificador del candidato que seleccionó el votante.
 >    ---
 >    * folio: number: Número consecutivo generado para mantener el orden de los votos.
->    * fecha_hora_inicio_votacion: datetime: Tiempo de inicio del proceso de votación.
+>    * fecha_hora_inicio_votación: datetime: Tiempo de inicio del proceso de votación.
 >    * fecha_hora_voto: datetime: Momento en que se registró el voto.
 
 > **Candidato**: Información de los candidatos para cada tipo de elección.
->    * id_candidato: number <<auto-generado>>: Identificador númerico único.
+>    * id_candidato: number <<auto-generado>>: Identificador numérico único.
 >    ---
 >    * nombre : text: Nombre completo del candidato.
 >    * hipocoristico : text: Abreviación del partido/coalición del candidato.
 >    * cargo : text: Cargo al que se postula el candidato.
->    * descripcion: text: Descripción larga del candidato, pueden agregarse observaciones.
+>    * descripción: text: Descripción larga del candidato, pueden agregarse observaciones.
 
-> **Partido**: Partidos o grupos politicos/sociales que son representados por el candidato.
->    * id_partido : number <<auto-generado>>: Identificador númerico único.
+> **Partido**: Partidos o grupos políticos/sociales que son representados por el candidato.
+>    * id_partido : number <<auto-generado>>: Identificador numérico único.
 >   ---
 >    * nombre : text: Nombre del partido.
 >    * hipocoristico : text: Abreviación del partido/coalición/grupo.
 >    * uri_imagen : text: Imagen del partido para identificación visual.
 
 > **Log actividad**: Registro de la actividad de los usuarios de la urna. Se usará como información auditable.
->    * id_log : number <<auto-generado>>: Identificador númerico único.
->    * id_usuario : number <<llave-foranea>>: Identificador del usuario que realiza la acción.
+>    * id_log : number <<auto-generado>>: Identificador numérico único.
+>    * id_usuario : number <<llave-foránea>>: Identificador del usuario que realiza la acción.
 >    ---
 >    * actividad : text: Actividad que realizó el usuario.
 >    * fecha_hora : datetime: Hora y fecha en que el usuario realizó la actividad.
@@ -806,11 +806,11 @@ Este modelo contempla lo mínimo necesario para el correcto funcionamiento de la
 ### **Diseño de interfaz de usuario**
 
 <p align="justify">
-Como se mencionó anteriormente, el lenguaje selecionado es Python junto con el framework de Kivy para el diseño de la interfaz gráfica de usuario (GUI). En las siguientes imágenes se muestra como será el estilo gráfico de la interfaz, siendo esta acoplada a una pantalla táctil de resolución 1080x1920.
+Como se mencionó anteriormente, el lenguaje seleccionado es Python junto con el framework de Kivy para el diseño de la interfaz gráfica de usuario (GUI). En las siguientes imágenes se muestra como será el estilo gráfico de la interfaz, siendo esta acoplada a una pantalla táctil de resolución 1080x1920.
 </p>
 
 <p align="justify">
-La siguiente imagen es una captura de pantalla de la interfaz destinada a presentar la boleta al votante. En el encabezado se puede ver el logo del OPLE, la elección que se lleva a cabo y donde esta la casilla ubicada. Cabe acalarar que los colores son meramente representatuivos y estos pueden cambiarse para configurar el estilo de la eleccióny opcion de voto.
+La siguiente imagen es una captura de pantalla de la interfaz destinada a presentar la boleta al votante. En el encabezado se puede ver el logo del OPLE, la elección que se lleva a cabo y donde esta la casilla ubicada. Cabe aclarar que los colores son meramente representativos y estos pueden cambiarse para configurar el estilo de la elección y opción de voto.
 </p>
 
 <p align="center">
@@ -821,7 +821,7 @@ La siguiente imagen es una captura de pantalla de la interfaz destinada a presen
 </p>
 
 <p align="justify">
-Cuando el votante haya elegido su opción recibira un cuadro de confirmación. Tal como se muestra en la siguiente imagen. Siempre podra regresar a la pantalla de la boleta mientras no este seguro de su voto.
+Cuando el votante haya elegido su opción recibirá un cuadro de confirmación. Tal como se muestra en la siguiente imagen. Siempre podrá regresar a la pantalla de la boleta mientras no esté seguro de su voto.
 </p>
 
 <p align="center">
@@ -832,7 +832,7 @@ Cuando el votante haya elegido su opción recibira un cuadro de confirmación. T
 </p>
 
 <p align="justify">
-Finalmente se muestra la capacidad multiplataforma tanto de Kivy como de python para ejecutarse en dispositivos moviles tanto android como ios. Esto permite que se puedan agregar tablets como urnas de emergencia, o a minorar costos para elecciones que requieran menos requisitos de seguridad como los contemplados para la las elecciones estatales y federales. Por ejemplo para elecciones en escuelas o de caracter privado, podria ofrecerse esta opción, menteniendo todo el funcionamiento de la urna a nivel software.
+Finalmente se muestra la capacidad multiplataforma tanto de Kivy como de python para ejecutarse en dispositivos móviles tanto Android como iOS. Esto permite que se puedan agregar tablets como urnas de emergencia, o a minorar costos para elecciones que requieran menos requisitos de seguridad como los contemplados para la las elecciones estatales y federales. Por ejemplo, para elecciones en escuelas o de carácter privado, podría ofrecerse esta opción, manteniendo todo el funcionamiento de la urna a nivel software.
 </p>
 
 <p align="center">
