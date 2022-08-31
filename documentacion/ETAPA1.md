@@ -14,9 +14,9 @@
 ***
 ****** 
 ## Integrantes:
-  - Ávarez Castillo Miguel
+  - Álvarez Castillo Miguel
   - Jarquin Morales Natalia
-  - Jiménez Ponce Norma Ines
+  - Jiménez Ponce Norma Inés
   - Morales Martínez Zain Aziel
   - Reyes Vázquez Brenda
   - Aguilar Justo Adan Enrique
@@ -28,14 +28,14 @@
 <p align="justify">
 Algunos de los aspectos fundamentales del voto dentro de las democracias y en especial en nuestro país, es que sea libre y secreto. El proceso
 de votación le permite al ciudadano mexicano ejercer su máximo derecho de participación en la vida política, cívica y comunitaria del país. Sin embargo, las jornadas electorales son muy complejas y requieren de un especial cuidado durante cada momento del proceso, para lograr cumplir con los aspectos característicos
-del voto, por lo tanto estas jornadas exigen mucho tiempo. Dado que la tecnología es una herramienta que  facilita muchas actividades ayudándonos a realizarlas de manera optima y eficaz, la tecnología se ha agregado en el proceso de votación y de esta manera se ha pensado en implementar una urna electrónica que permita el registro de los votos durante las jornadas electorales.
+del voto; por lo tanto, estas jornadas exigen mucho tiempo. Dado que la tecnología es una herramienta que facilita muchas actividades ayudándonos a realizarlas de manera optima y eficaz, la tecnología se ha agregado en el proceso de votación y de esta manera se ha pensado en implementar una urna electrónica que permita el registro de los votos durante las jornadas electorales.
 </p>
 <p align="justify">
-La urna electrónica es un dispositivo que permite recibir los votos emitidos por los ciudadanos y los contabiliza de manera automática [1]. De este modo, la urna elimina el conteo manual de votos y consigo los posibles errores que se  pudieran generar en este conteo manual, aumenta la participación de la ciudadanía, ademas de que contribuye a la conservación del medio ambiente ya que esta urna es reusable.
+La urna electrónica es un dispositivo que permite recibir los votos emitidos por los ciudadanos y los contabiliza de manera automática [1]. De este modo, la urna elimina el conteo manual de votos y consigo los posibles errores que se  pudieran generar en este conteo manual, aumenta la participación de la ciudadanía, ademas de que contribuye a la conservación del medio ambiente, ya que esta urna es reusable.
 </p>
 <p align="justify">
 En la actualidad con el avance de las tecnologías muchos países están en proceso de implementar nuevos mecanismos para dicho proceso, como la creación de urnas electrónicas.
-Algunos países como Estados Unidos, Gran Bretaña, Suiza, Holanda, Estonia, Venezuela, Brasil, India y Francia, entre otros han implementado diversos mecanismos para que de esta forma los ciudadanos tengan mas confianza respecto a los procesos electorales; El término “e-voting” hace referencia a todo tipo de votación que implique el uso de medios electrónicos; En Alemania las urnas electrónicas han sido utilizadas por más de diez años pero todo esto terminó cuando la corte dictó que el uso de las urnas electrónicas queda prohibido ya que en 2005 los equipos presentaron problemas, el más importante fue que los equipos no le ofrecían al ciudadano un comprobante que verificara que su voto había sido emitido, lo que esto hizo que los ciudadanos desconfiaran totalmente en la máquina.
+Algunos países como Estados Unidos, Gran Bretaña, Suiza, Holanda, Estonia, Venezuela, Brasil, India y Francia, entre otros, han implementado diversos mecanismos para que de esta forma los ciudadanos tengan más confianza respecto a los procesos electorales. El término “e-voting” hace referencia a todo tipo de votación que implique el uso de medios electrónicos; en Alemania, las urnas electrónicas han sido utilizadas por más de diez años, pero todo esto terminó cuando la corte dictó que el uso de las urnas electrónicas queda prohibido ya que en 2005 los equipos presentaron problemas, el más importante fue que los equipos no le ofrecían al ciudadano un comprobante que verificara que su voto había sido emitido, lo que esto hizo que los ciudadanos desconfiaran totalmente en la máquina.
 </p>
 <p align="justify">
 Como resultado en este trabajo, se obtiene el diseño de un prototipo detallado de una urna electrónica funcional y segura. Se muestran las especificaciones de todos los componentes que conformarían el hardware de la urna, así mismo se mencionan los detalles del software, por consiguiente, es posible ensamblar y programar la urna electrónica que se propone en este documento.
@@ -51,8 +51,16 @@ Para el sofware se eligieron las siguientes tecnologías, que son usadas por las
 > - Manejador de base de datos postgres, que es robusto y escalable.
 > - Diseño del sistema utilizando modelos UML, que permiten una documentación rápida y descriptiva del proyecto.
 
-El hardware utilizado es …
-- MUY BREVE DESCRIPCIÓN DEL HARWARE
+El hardware utilizado es:
+|  | | 
+| --- | --- | 
+|Pantalla para Testigo  | Este es un monitor también conocido como pantalla, esta se encarga de mostrar la información del equipo, por ejemplo imágenes y texto; todas las imágenes en una pantalla son mostradas a través de pixeles, esto hace que la resolución de una pantalla dependa de la cantidad de pixeles que tenga.        |
+|Pantalla táctil para principal   | Una pantalla táctil es un dispositivo de entrada y salida de información y este recibe ordenes con el tacto de un objeto como lo puede ser el dedo de una persona.        |
+|Impresora térmica |Una impresora térmica es un tipo de dispositivo de impresión que usa el calor para poder mostrar la imagen o texto en papel lo que hace que no necesite de tinta lo que hace que sea menos cotoso su uso sin embargo para poder imprimir necesita tener papel térmico. |
+|Lector de tarjetas | Es un dispositivo capaz de leer la información de una tarjeta sin tener que registrar los datos de manera manual haciendo que la lectura de información sea más rápida .|
+|UPS | Un UPS (Uninterruptable Power Supply) en español se conoce como sistema de alimentación interrumpida, este dispositivo permite que un dispositivo eléctrico siga funcionando cuando el suministro de energía falle. |
+| Computadora | Es un dispositivo que se usa para realizar tareas de manera digital, ahorrando tiempo, trabajo y velocidad en la realización de los trabajos. |
+
 
 # Objetivos
 
@@ -71,16 +79,16 @@ El hardware utilizado es …
 
 
 # Glosario
-  - **Autenticación**:
-  - **Computadora**:
-  - **E-voting**: voto a distancia a través de internet
-  - **Framework**: 
-  - **GUI**:
-  - **Impresora térmica**: 
-  - **Lector de tarjetas**:
+  - **Autenticación**: Proceso de confirmación que algo es quien dice ser.
+  - **Computadora**: Máquina electrónica digital programable que ejecuta una serie de comandos para procesar los datos de entrada.
+  - **E-voting**: Voto a distancia a través de internet
+  - **Framework**: Es un conjunto estandarizado de conceptos, prácticas y criterios para enfocar un tipo de problemática particular que sirve como referencia, para enfrentar y resolver nuevos problemas de índole similar.
+  - **GUI**: Programa informático que actúa de interfaz de usuario, utilizando un conjunto de imágenes y objetos gráficos para representar la información.
+  - **Impresora térmica**: Equipo que utiliza calor como medio para producir la imagen o el texto en papel.
+  - **Lector de tarjetas**: Dispositivo de almacenamiento de datos para acceder los datos en una tarjeta de memoria. 
   - **Partido político**: son grupos de ciudadanos que comparten una ideología política y la promueven 
   - **Presidente**: Es la persona designada para dirigir un gobierno, tribunal, asamblea, consejo, etc.
-  - **UPS**:
+  - **UPS**: Dispositivo que, gracias a sus baterías y otros elementos almacenadores de energía, durante un apagón eléctrico puede proporcionar energía eléctrica por un tiempo limitado
   
 
 # Especificaciones técnicas del prototipo
@@ -124,9 +132,32 @@ En la parte de adentro se encuentran los componentes UPS, computadora y la impre
 Derivado de lo anterior, buscamos componentes que fueran eficaces, accesibles de precio y capaces de resistir toda una jornada electoral sin problema alguno. A continuación, se muestran los componentes elegidos junto con sus especificaciones técnicas.
 </p>
 
-### Espcificaciones técnicas
-
-
+### Especificaciones técnicas
+### Pantalla Siemens
+| Información general|  | 
+| --- | --- | 
+|Designación del productor  | IFP2200 Básica        |
+|Designación abreviada   | Pantalla plana básica 22° táctil.        |
+|**Display**|
+|Diseño de pantalla  | Pantalla panorámica TFT, retroiluminación LED        |
+|Diagonal de la pantalla   | 21.5 in,22°        |
+|Configuración de visualización en pantalla (OSD)   | No       |
+|Número de colores   | 16 000 000 ; 16 millones       |
+|**Resolución (Pixeles)**|
+|Resolución de imagen | 1,920 x 1,080       |
+|Resolución de imagen horizontal   | 1,920 pixeles    |
+|Resolución de imagen vertical  | 1,080 pixeles     |
+|**Características generales**|
+|Desmontable de la unidad de la computadora | 5 m     |
+|**Contraluz**|
+|Tipo de retroalimentación | LED     |
+|Retroiluminación MTBF (a 25 °C) | 30,000 h     |
+|Luz de fondo regulable | Sí; 0-100 %     |
+|**Elementos de control**|
+|Elementos de control | Pantalla multitáctil     |
+|**Fuentes de teclado**|
+|Teclas de función | No     |
+|Teclas de función | No     |
 ## Software
 
 <p align="justify">
@@ -365,11 +396,11 @@ Este modelo contempla lo mínimo necesario para el correcto funcionamiento de la
 ### **Diseño de interfaz de usuario**
 
 <p align="justify">
-Como se mencionó anteriormente, el leguaje selecionado es Python junto con el framework de Kivy para el diseño de la interfaz gráfica de usuario (GUI). En las siguientes imagenes se muestra como sera el estilo gráfico de la interfaz, siendo esta acoplada a una pantalla tactitl de resolucion 1080x1920.
+Como se mencionó anteriormente, el lenguaje selecionado es Python junto con el framework de Kivy para el diseño de la interfaz gráfica de usuario (GUI). En las siguientes imágenes se muestra como será el estilo gráfico de la interfaz, siendo esta acoplada a una pantalla táctil de resolución 1080x1920.
 </p>
 
 <p align="justify">
-La siguiente imagen es una captua de pantalla de la interfaz destinada a presentar la boleta al votante. En el encabezado se puede ver el logo del OPLE, la elección que se lleva a cabo y donde esta la casilla ubicada. Cabe acalarar que los colores son meramente representatuivos y estos pueden cambiarse para configurar el estilo de la eleccióny opcion de voto.
+La siguiente imagen es una captura de pantalla de la interfaz destinada a presentar la boleta al votante. En el encabezado se puede ver el logo del OPLE, la elección que se lleva a cabo y donde esta la casilla ubicada. Cabe acalarar que los colores son meramente representatuivos y estos pueden cambiarse para configurar el estilo de la eleccióny opcion de voto.
 </p>
 
 <p align="center">
