@@ -134,6 +134,12 @@ Derivado de lo anterior, buscamos componentes que fueran eficaces, accesibles de
 
 ## Especificaciones técnicas
 ### **Pantalla Siemens**
+<figure>
+  <img src="imgs/pantalla_LED.png"/>
+  <figcaption align="center">Pantalla LED.</figcaption>
+</figure>
+</p>
+
 | Información general|  | 
 | --- | --- | 
 |Designación del productor  | IFP2200 Básica        |
@@ -215,7 +221,12 @@ Derivado de lo anterior, buscamos componentes que fueran eficaces, accesibles de
 | Peso sin   embalaje                                                    | 6.5 kg                         |
 ### **UPS de onda sinusoidal interactiva SmartPro de 120 V, 750 VA, 600 W, 1U para rack/vertical, opciones de tarjeta de administración de red, USB, serie DB9**
 Número de modelo: SMART750RM1U
-*Insertar imagen*
+
+<figure>
+  <img src="imgs/ups.jpeg"/>
+  <figcaption align="center">UPS.</figcaption>
+</figure>
+
 <p align="justify">
 Tripp Lite SMART750RM1U 750VA / .75kVA / 600 watts de vatios interactiva. El sistema UPS de onda sinusoidal ofrece protección de energía completa para aplicaciones de red críticas en una configuración vertical/de rack total de 1U altamente eficiente. Las interfaces de administración de red de uso simultáneo incluyen USB, RS-232 y ranura para opciones de tarjeta de administración de red opcionales. La regulación de voltaje interactiva de línea, la supresión de sobretensiones de grado de red y la salida de CA de onda sinusoidal de larga duración durante los apagones hacen que este UPS sea ideal para aplicaciones de redes avanzadas en centros de datos, salas de computadoras y armarios de redes.
 </p>
@@ -340,6 +351,11 @@ Tripp Lite SMART750RM1U 750VA / .75kVA / 600 watts de vatios interactiva. El sis
 
 ### **TPTCM60III**
 Impresora de comprobantes/billetes 60mm
+<figure>
+  <img src="imgs/impresoratermica.jpeg"/>
+  <figcaption align="center">Impresora térmica.</figcaption>
+</figure>
+
 <p align="justify">
 <b>Características</b>:
 </p>
@@ -378,6 +394,13 @@ Impresora de comprobantes/billetes 60mm
 </p>
 •	Boquilla de papel de plástico (opcional)
 </p>
+
+<figure>
+  <img src="imgs/impresorapordentro.jpeg"/>
+  <figcaption align="center">Vista trasera.</figcaption>
+</figure>
+
+
 <b>Aplicaciones</b>
 <p align="justify">
 •	Kioskos self-service
@@ -513,6 +536,12 @@ Impresora de comprobantes/billetes 60mm
 | Seguro de   equipo conectado (EE. UU., Canadá y Puerto Rico)                 | $250,000 <a   class="insuranceLink"   href="//www.tripplite.com/support/insurance-policy">Ultimate   Lifetime Insurance</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ## **HID 6005BGB00 Proximity ProxPoint Plus Reader, interfaz Wiegand, cable flexible de 18", gris**
+
+<figure>
+  <img src="imgs/hid.jpeg"/>
+  <figcaption align="center">Vista trasera.</figcaption>
+</figure>
+
 <p align="justify">
 También conocido como: HU-6005BGB00, HID-6005BGB00
 El HID 6005BGB00 es un mini lector de proximidad de parteluz de 125 kHz con una carcasa gris carbón. Siendo uno de los lectores más pequeños de la serie ProxPoint exclusiva de HID, el 6005BGB00 es perfecto para un control de acceso discreto y conveniente.
