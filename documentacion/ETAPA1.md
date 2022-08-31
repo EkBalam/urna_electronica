@@ -845,6 +845,11 @@ Finalmente se muestra la capacidad multiplataforma tanto de Kivy como de python 
 
 
 # Diseño y modelado de la urna
+<p align="justify">
+Se optó por un diseño cuadrado para que el transporte de la urna sea lo más cómodo posible dando una ventaja hacia los vehículos que transportan dichos artefactos y tengan la posibilidad de acomodar de manera que estas no reciban daños durante el trayecto. 
+Cuenta con una pantalla en la parte superior que es desplegable lo que beneficia al momento de  guardarla y armarla de manera más sencilla; también protegiéndola de golpes, así como una pantalla táctil que es muy eficiente ya que es la pantalla principal donde se mostrará toda la información y el ciudadano solo tendrá que hacer sus selecciones con tan solo poner su dedo en el apartado que sea de su agrado. De igual manera al tener la funcionalidad de ser portátil la pantalla, resguardar de daños la parte trasera en la cual se encuentra la impresora térmica; además facilita el proceso de cambio de cartuchos o hacerle mantenimiento, se escogió que la impresora sea térmica ya que eso permite tener un ahorro en costos, únicamente comprando nuevos cartuchos de papel térmico a diferencia de las impresoras de tinta que necesitan cartuchos y ser rellenados continuamente.
+El lector de tarjeta está ubicado en la parte izquierda de la pantalla principal únicamente mostrando lo necesario para que solo se deba  desplazar frente al lector de manera rápida y sin necesidad de algún contacto para posteriormente ser registrado el ciudadano; también se agrego un UPS en la parte inferior dentro de la urna para que las baterías no estén por fuera y de esa manera no estorben, también se implementó un cajón para poder acceder al UPS de manera mas cómoda y realizar reparaciones utilizando un mini pc para que la urna sea lo más compacta posible, está ubicada en la parte inferior a un lado del UPS y se decidió colocar abajo con la finalidad de no presentar problemas de espacio en la parte de las pantallas testigo y principal.
+La urna cuenta con ventanas para que se pueda observar todas las fichas de los votantes y esto genere confianza en los ciudadanos puede ser de cristal templado o bien un acrílico para que tengan resistencia a golpes además se agregaron dos agarraderas para que su transporte sea fácil y así evitar caídas.
 [//]: # "(Plano en 3D, Impresión en 4D, maqueta, dibujo isométrico, etc.), especificando material y dimensiones."
 
 
@@ -860,12 +865,14 @@ Finalmente se muestra la capacidad multiplataforma tanto de Kivy como de python 
 
 <p align="center">
   <figure >
-    <img src="imgs/cuerpo_principal.jpg"/>
+    <img src="imgs/cuerpoprincipal.jpeg"/>
     <figcaption align="center">Cuerpo principal de la urna.</figcaption>
-    <img src="imgs/vista_completa.jpg"/>
+    <img src="imgs/vistacompleta.jpeg"/>
     <figcaption align="center">Vista completa.</figcaption>
-    <img src="imgs/soporte_lcd_testigo.jpg"/>
-    <figcaption align="center">Testigo LCD para funcionarios.</figcaption>
+    <img src="imgs/cajondepantalla.jpeg"/>
+    <figcaption align="center">Cajón de pantalla LCD.</figcaption>
+    <img src="imgs/soportelcd.jpeg"/>
+    <figcaption align="center">Soporte LCD Testigo.</figcaption>
   </figure>
 </p>
 
