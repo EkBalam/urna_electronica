@@ -86,7 +86,7 @@ El hardware utilizado es:
   - **GUI**: Programa informático que actúa de interfaz de usuario, utilizando un conjunto de imágenes y objetos gráficos para representar la información.
   - **Impresora térmica**: Equipo que utiliza calor como medio para producir la imagen o el texto en papel.
   - **Lector de tarjetas**: Dispositivo de almacenamiento de datos para acceder los datos en una tarjeta de memoria. 
-  - **Partido político**: son grupos de ciudadanos que comparten una ideología política y la promueven 
+  - **Partido político**: Son grupos de ciudadanos que comparten una ideología política y la promueven 
   - **Presidente**: Es la persona designada para dirigir un gobierno, tribunal, asamblea, consejo, etc.
   - **UPS**: Dispositivo que, gracias a sus baterías y otros elementos almacenadores de energía, durante un apagón eléctrico puede proporcionar energía eléctrica por un tiempo limitado
   
