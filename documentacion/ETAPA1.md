@@ -120,7 +120,7 @@ Nuestro prototipo está conformado de la siguiente manera:
 | Computadora | Tal cual su nombre lo indica, estará en ese apartado. |
 
 <p align="justify">
-En la parte superior se encuentra la <b>pantalla principal</b> y la <b>pantalla testigo</b>, las cuales se guardan al final de la jornada (falta especificar como), con el fin de una mejor transportabilidad sin comprometer estos componentes. También, en esta parte de la urna se encuentran las agarraderas, las cuales nos ayudarán al transporte de este mismo.
+En la parte superior se encuentra la <b>pantalla principal</b> y la <b>pantalla testigo</b>, las cuales se guardan al final de la jornada de forma manual, con el fin de una mejor transportabilidad sin comprometer estos componentes. También, en esta parte de la urna se encuentran las agarraderas, las cuales nos ayudarán al transporte de este mismo.
 </p>
 
 <p align="justify">
