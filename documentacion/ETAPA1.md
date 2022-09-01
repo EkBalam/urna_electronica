@@ -1,4 +1,4 @@
-# Urna Electrónica
+# Uxrna Electrónica
 
 [//]: # "Institución educativa, líder del proyecto e integrantes del equipo."
 [//]: # "![UX Logo](imgs/ux_logo.png)"
