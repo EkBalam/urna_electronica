@@ -89,6 +89,7 @@ El hardware utilizado es:
   - **Partido político**: Son grupos de ciudadanos que comparten una ideología política y la promueven 
   - **Presidente**: Es la persona designada para dirigir un gobierno, tribunal, asamblea, consejo, etc.
   - **UPS**: Dispositivo que, gracias a sus baterías y otros elementos almacenadores de energía, durante un apagón eléctrico puede proporcionar energía eléctrica por un tiempo limitado
+  - **Urna electrónica**: Equipo que recibe y contabiliza los votos en una jornada electoral.
   
 
 # Especificaciones técnicas del prototipo
@@ -795,7 +796,6 @@ La urna cuenta con ventanas para que se pueda observar todas las fichas de los v
 </p>
 
 
-# Anexos: documentación de diseño del sistema
 
 
 
