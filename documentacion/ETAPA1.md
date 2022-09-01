@@ -796,7 +796,6 @@ La urna cuenta con ventanas para que se pueda observar todas las fichas de los v
 </p>
 
 
-# Anexos: documentación de diseño del sistema
 
 
 
