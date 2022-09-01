@@ -1,4 +1,4 @@
-# Urna Electrónica
+# Urna Electrónica "Ktli kachikín"
 
 [//]: # "Institución educativa, líder del proyecto e integrantes del equipo."
 [//]: # "![UX Logo](imgs/ux_logo.png)"
@@ -79,6 +79,8 @@ El hardware utilizado es:
 
 
 # Glosario
+  - **Ktli**: Canto.
+  - **Kachikín**: Pueblo.
   - **Autenticación**: Proceso de confirmación que algo es quien dice ser.
   - **Computadora**: Máquina electrónica digital programable que ejecuta una serie de comandos para procesar los datos de entrada.
   - **E-voting**: Voto a distancia a través de internet
@@ -442,15 +444,15 @@ Impresora de comprobantes/billetes 60mm
 |                                   | Linux   (32/64 bits);                                                                                       |
 |                                   | COM   virtual (Linux o Windows 32/64 bit);                                                                  |
 |                                   | Android™                                                                                                    |
-| Tool software                     | PrinterSet, CustomPowerTool,   Status Monitor, Custom Windows API                                           |
+| Herramienta de software                     | PrinterSet, CustomPowerTool,   Monitor de estado, Windows API      Personalizada                                     |
 | Alimentación                      | 24 Vdc ± 10%                                                                                                |
-| Absorción   medio                 | 1.2A (12.5% dots encendidos)                                                                                |
+| Absorción   medio                 | 1.2A (12.5% puntos encendidos)                                                                                |
 | MTBF                              | 122.000 horas (Tarjeta   electrónica)                                                                       |
 | Vida   cabezal                    | 50 km / 100M impulsos                                                                                       |
 | MCBF                              | 1.000.000 de cortes                                                                                         |
 | Temperatura   de funcionamiento   | 0°C + 50°C                                                                                                  |
 | Dimensiones                       | 194,5(L)x80,3(H)x112,4(W) mm con   boca de papel corta                                                      |
-|                                   | 265,5(L)x80,3(H)x115(W)   mm con dispenser                                                                  |
+|                                   | 265,5(L)x80,3(H)x115(W)   mm con dispensador                                                                  |
 | Peso                              | 1,2 Kg (sin expulsor)                                                                                       |
 |                                   | 1,5 Kg   (con expulsor)                                                                                     |
 
